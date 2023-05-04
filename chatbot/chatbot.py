@@ -1,7 +1,7 @@
 import openai
 import pyttsx3 
 import speech_recognition as sr
-import creds
+import creds as creds
 openai.api_key = f'{creds.key}'
 
 engine = pyttsx3.init()
